@@ -32,7 +32,7 @@
         "craue/formflow-bundle": "dev-master",
         "leafo/lessphp": "0.3.*@dev",
         "kriswallsmith/assetic": "1.1.*@dev",
-        "friendsofsymfony/user-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "dev-master"
         
     },
     "scripts": {
