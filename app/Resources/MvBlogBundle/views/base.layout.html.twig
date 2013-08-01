@@ -1,0 +1,26 @@
+{% extends 'MopaBootstrapBundle::base.html.twig' %}
+
+
+{% block head_style %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('bundles/mvblog/css/default.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/mvblog/css/blog.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/mvblog/css/colours.css') }}" type="text/css" media="all" />
+{% endblock head_style %}
+
+{% block navbar %} {% endblock navbar %}
+
+{% block page_header %} {% endblock page_header %}
+
+{% block title %} Blog {% endblock %}
+
+{% block content_row %}
+    {% block blog_body %}{% endblock %}
+{% endblock content_row %}
+
+
+{% block footer %} {% endblock footer %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
