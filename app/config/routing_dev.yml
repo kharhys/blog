@@ -13,10 +13,6 @@ _configurator:
 _main:
     resource: routing.yml
 
-# AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
-
 mv_blog_secure:
     resource: "@MvBlogBundle/Resources/config/routing_dev.yml"
     prefix: /badp

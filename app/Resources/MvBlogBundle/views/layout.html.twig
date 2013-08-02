@@ -1,0 +1,27 @@
+{% extends 'MvBlogBundle::base.layout.html.twig' %}
+
+{% if form is defined %}
+    {% form_theme form 'MvBlogBundle::form_div_layout.html.twig' %}
+{% endif %}
+
+{% block title %}
+    {{ parent() }}{% if app.request.get('page') > 1 %} (page {{ app.request.get('page') }}){% endif %}
+{% endblock %}
+
+{% block blog_body %}
+    {% include "MvBlogBundle::flashes.html.twig" %}
+    <div class="contained">
+        <div id="mv_blog_page">
+            <div class="contained">
+                <div class="row-fluid">
+                    <div class="span9">
+                        {% block content_body %}{% endblock content_body %}
+                    </div>
+                    <div class="span3 side-box">
+                        {% render controller('MvBlogBundle:Default:menu') %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock blog_body%}

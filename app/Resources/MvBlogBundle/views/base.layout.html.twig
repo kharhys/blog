@@ -3,9 +3,9 @@
 
 {% block head_style %}
     {{ parent() }}
-    <link rel="stylesheet" href="{{ asset('bundles/mvblog/css/default.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ asset('bundles/mvblog/css/blog.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ asset('bundles/mvblog/css/colours.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/kharhysuser/css/default.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/kharhysuser/css/blog.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/kharhysuser/css/colours.css') }}" type="text/css" media="all" />
 {% endblock head_style %}
 
 {% block navbar %} {% endblock navbar %}
@@ -14,8 +14,47 @@
 
 {% block title %} Blog {% endblock %}
 
+{% block body_start %}
+    <div id="top-block">
+        <div class="row-fluid">
+            <div class="jumbotron text-center" id="logo-block">
+                <div class="well bgless">
+                    <h1>Invest World Dialry</h1>
+                    <p class="lead">
+                        A Blog About Investment Opportunities
+                    </p>
+                </div>
+            </div>
+            <div class="menu-wrapper">
+                <div class="wrapper" id="menu-bar">
+                    <div class="text-left">
+                        <div class="menu">
+                            <ul>
+                                {% if app.user %}
+                                    {% if is_granted('ROLE_ADMIN') %}
+                                        {% set dashboard = 'admin_home' %}
+                                    {% elseif is_granted('ROLE_USER') %}
+                                        {% set dashboard = 'user_home' %}
+                                    {% endif %}
+                                    <li><a href="{{ path(dashboard) }}">Dashboard</a></li>
+                                {% else %}
+                                    <li><a href="{{ path('blog_homepage') }}">Home</a></li>
+                                {% endif %}
+                                <li><a href="{{ path('fos_user_registration_register') }}">Recent Posts</a></li>
+                                <li><a href="{{ path('fos_user_registration_register') }}">Categories</a></li>
+                                <li><a href="{{ path('fos_user_security_login') }}">About Us</a></li>
+                                <li><a href="{{ path('fos_user_security_login') }}">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body_start %}
+
 {% block content_row %}
-    {% block blog_body %}{% endblock %}
+    {% block blog_body %}{% endblock blog_body %}
 {% endblock content_row %}
 
 

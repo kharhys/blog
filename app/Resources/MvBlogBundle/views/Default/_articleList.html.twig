@@ -1,0 +1,32 @@
+{% if pagination|length %}
+    {% for entity in pagination %}
+        <div class="mv_blog_article_list  naked {% if loop.index is odd %}odd{% else %}even{% endif %}">
+            <h2 class="title"><a href="{{ path('blog_post_show', entity.routingParams ) }}">{{ entity.title }}</a></h2>
+            <div class="contained mv_blog_accroche">
+                {{ entity.accroche|raw }}
+                <p class="mv_blog_article_suite">
+                    <a href="{{ path('blog_post_show', entity.routingParams) }}">
+                        {{ 'default.readmore'|trans({}, 'MvBlogBundle') }}...
+                    </a>
+                </p>
+            </div>
+            {% if entity.commentsPublied|length == 0 %}
+                {% set link_comment = 'default.no_comments'|trans({}, 'MvBlogBundle') %}
+            {% else %}
+                {% set word_comment = 'default.comments'|transchoice(entity.commentsPublied|length,{'%count%':entity.commentsPublied|length}, 'MvBlogBundle') %}
+                {% set link_comment = '<a href="' ~ path('blog_post_show', entity.routingParams) ~ '#blog_comments">' ~ word_comment ~ '</a>' %}
+            {% endif %}
+
+            {% include 'MvBlogBundle:Default:_articleCategories.html.twig' with {'entity': entity} %}
+
+            <p class="mv_blog_mention clear contained-topless">
+                {{ 'default.lastupdated_on'|trans({'%date%': entity.updated|date('d/m/Y'), '%time%': entity.updated|date('H:i')}, 'MvBlogBundle') }} - {{ link_comment|raw }}
+            </p>
+        </div>
+    {% endfor %}
+{% else %}
+    <div class="mv_blog_article_list odd">{{ 'default.no_article'|trans({}, 'MvBlogBundle') }}</div>
+{% endif %}
+<div class="mv_blog_navigation">
+    {{ knp_pagination_render(pagination)|raw }}
+</div>

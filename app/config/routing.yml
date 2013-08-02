@@ -5,7 +5,7 @@ kharhys_user:
 
 mv_blog:
     resource: "@MvBlogBundle/Resources/config/routing.yml"
-    prefix: /blog
+    prefix: /
 
 mv_blog_admin:
     resource: "@MvBlogBundle/Resources/config/routing_admin.yml"
