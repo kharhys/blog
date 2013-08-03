@@ -1,8 +1,8 @@
 {% if pagination|length %}
     {% for entity in pagination %}
-        <div class="mv_blog_article_list  naked {% if loop.index is odd %}odd{% else %}even{% endif %}">
+        <div class="mv_blog_article_list  {% if loop.index is odd %}odd{% else %}even{% endif %}">
             <h2 class="title"><a href="{{ path('blog_post_show', entity.routingParams ) }}">{{ entity.title }}</a></h2>
-            <div class="contained mv_blog_accroche">
+            <div class="mv_blog_accroche">
                 {{ entity.accroche|raw }}
                 <p class="mv_blog_article_suite">
                     <a href="{{ path('blog_post_show', entity.routingParams) }}">

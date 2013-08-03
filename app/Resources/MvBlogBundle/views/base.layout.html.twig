@@ -15,38 +15,71 @@
 {% block title %} Blog {% endblock %}
 
 {% block body_start %}
-    <div id="top-block">
+    <div class="container-fluid menu">
         <div class="row-fluid">
-            <div class="jumbotron text-center" id="logo-block">
-                <div class="well bgless">
-                    <h1>Invest World Dialry</h1>
-                    <p class="lead">
-                        A Blog About Investment Opportunities
-                    </p>
-                </div>
+            <div class="span6 text-left">
+                <ul>
+                    {% if app.user %}
+                        {% if is_granted('ROLE_ADMIN') %}
+                            {% set dashboard = 'admin_home' %}
+                        {% elseif is_granted('ROLE_USER') %}
+                            {% set dashboard = 'user_home' %}
+                        {% endif %}
+                        <li><a href="{{ path(dashboard) }}">Dashboard</a></li>
+                    {% else %}
+                        <li><a href="{{ path('blog_homepage') }}">Home</a></li>
+                    {% endif %}
+                    <li><a href="{{ path('fos_user_registration_register') }}">Recent Posts</a></li>
+                    <li><a href="{{ path('fos_user_registration_register') }}">Categories</a></li>
+                    <li><a href="{{ path('fos_user_security_login') }}">About Us</a></li>
+                    <li><a href="{{ path('fos_user_security_login') }}">Contact Us</a></li>
+                </ul>
             </div>
-            <div class="menu-wrapper">
-                <div class="wrapper" id="menu-bar">
-                    <div class="text-left">
-                        <div class="menu">
-                            <ul>
-                                {% if app.user %}
-                                    {% if is_granted('ROLE_ADMIN') %}
-                                        {% set dashboard = 'admin_home' %}
-                                    {% elseif is_granted('ROLE_USER') %}
-                                        {% set dashboard = 'user_home' %}
-                                    {% endif %}
-                                    <li><a href="{{ path(dashboard) }}">Dashboard</a></li>
-                                {% else %}
-                                    <li><a href="{{ path('blog_homepage') }}">Home</a></li>
-                                {% endif %}
-                                <li><a href="{{ path('fos_user_registration_register') }}">Recent Posts</a></li>
-                                <li><a href="{{ path('fos_user_registration_register') }}">Categories</a></li>
-                                <li><a href="{{ path('fos_user_security_login') }}">About Us</a></li>
-                                <li><a href="{{ path('fos_user_security_login') }}">Contact Us</a></li>
-                            </ul>
+            <div class="span6 text-right">
+                <ul>
+                    <li><a href="{{ path('fos_user_security_login') }}">Sign Up</a></li>
+                    <li><a href="{{ path('fos_user_security_login') }}">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="header">
+        <div class="row-fluid">
+            <div class="span8 text-left">
+                <div id="logo-block">
+                    <div class="row-fluid">
+                        <div class="span12 page-header">
+                            <h1>Invest World Diary  <small>A Blog About Investment Opportunities</small></h1>
                         </div>
                     </div>
+                </div>
+                <div id="carousel" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner text-center">
+                        <div class="active item"><img src="http://fpoimg.com/870x200?text=Carousel Image&bg_color=584566&text_color=FFFFFF" width="870" height="150"/></div>
+                        <div class="item"><img src="http://fpoimg.com/870x200?text=Carousel Image&bg_color=584566&text_color=FFFFFF" width="870" height="150"/></div>
+                        <div class="item"><img src="http://fpoimg.com/870x200?text=Carousel Image&bg_color=584566&text_color=FFFFFF" width="870" height="150"/></div>
+                    </div>
+                    <!--
+                    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+                    -->
+                </div>
+            </div>
+            <div class="span4">
+                <div class="page-header">
+                    <h1><small>About The Author</small> </h1>
+                </div>
+                <div class="text-left" id="about">
+                    This is the area where you will put in information about who you are, your experience blogging, and what your blog is about. You aren't limited, however, to just putting a biography. You can put whatever you please.
+                </div>
+                <div class="text-center" id="ad-spot">
+                    <img src="http://fpoimg.com/400x100?text=Sample Ad Banner&bg_color=584586&text_color=FFFFFF" width="400" height="100"/>
                 </div>
             </div>
         </div>

@@ -36,32 +36,17 @@ DIV.mv_blog_accroche A:hover, DIV#mv_blog_article A:hover { text-decoration: non
 }
 
 DIV#top-block {
-    border-top: 2px solid #000;
-    color: #34495e;;
+    border-top: 2px solid #000001;
+    color: #DDACFF;
 }
 DIV#logo-block {
-    min-height: 100%;
-    background: #FFF;
-    border-bottom: 1px solid #fff;
-}
-
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.menu-wrapper {
-    background: #34495e;
-    color: #FFF;
+    text-transform: uppercase;
 }
 
 .bgless {
     background: none;
     border: none;
     box-shadow: none;
-}
-#menu-bar {
-    border-bottom: 3px solid #1abc9c;
 }
 .contained {
     padding: 10px;
@@ -70,16 +55,18 @@ DIV#logo-block {
     padding: 0 10px 10px;
     margin-top: 20px;
 }
-.menu {
-    margin-top: 0.5%;
-    border-top: 1px solid #205859;
-}
+
 ul {
     list-style-type: none;
 }
+.menu {
+    border-bottom: 1px solid #DDACFF;
+    padding: 0 10px;
+    background: #584566;
+}
 .menu li {
     display: inline-block;
-    padding: 0.5% 4%;
+    margin: 0.5% 1%;
 }
 .menu ul {
     padding: 0;
@@ -88,18 +75,14 @@ ul {
 .menu ul:first-child li {
     padding-left: 2px;
 }
-.menu ul li:hover {
-    border-top: 1px solid #1abc9c;
-    background: #516C86;
-    color: #1abc9c;
-}
 .menu a {
-    color: #FFF;
+    color: #FFFFFF;
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 80%;
+    padding: 0 5px;
 }
 .menu a:hover {
-    color: #1abc9c;
+    color: #DDACFF;
     text-decoration: none;
 }
 .menu a:active {
@@ -110,8 +93,6 @@ ul {
 .title {
     background: #465869;
     color: #FFF;
-    border-bottom: 1px solid #000;
-    border-left: 8px solid #41B6E4;
     padding: 0 10px;
     font-size: 16px;
     line-height: 40px;
@@ -125,5 +106,21 @@ ul {
 .side-box {
     background: #d7d7d7;
     color: #fff;
-    border-top: 2px solid #000;
+}
+
+DIV#header {
+    margin: 1% 0 0;
+    padding: 1% 1% 0;
+    background: #FFFFFF;
+}
+DIV#img-caption {
+    margin-top: 10px;
+    border-top: 1px solid #9433AB;
+}
+#ad-spot {
+    padding: 15px 0 0;
+    border-top: 1px solid #eeeeee;
+}
+#about {
+    padding: 0 7px 5px;
 }

@@ -2,37 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/admin-blog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/homepage.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/menu.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375421133020" ignored="false" />
+    <file path="/Dummy.txt" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375539472126" ignored="false" />
     <file path="/AppKernel.php" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375294178471" ignored="false" />
     <file path="/parameters.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375295267847" ignored="false" />
     <file path="/User.php" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375365607085" ignored="false" />
     <file path="/security.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375365943196" ignored="false" />
     <file path="/config.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375378138865" ignored="false" />
     <file path="/base.admin-layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375369882783" ignored="false" />
-    <file path="/base.layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375427688812" ignored="false" />
-    <file path="/blog.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375428885047" ignored="false" />
+    <file path="/base.layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375541987333" ignored="false" />
+    <file path="/blog.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375536620045" ignored="false" />
     <file path="/admin-blog.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375390399608" ignored="false" />
-    <file path="/default.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375434083819" ignored="false" />
-    <file path="/colours.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375434550967" ignored="false" />
+    <file path="/default.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375540784664" ignored="false" />
+    <file path="/colours.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375541590722" ignored="false" />
     <file path="/layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375434633318" ignored="false" />
     <file path="/_articleList.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375432344811" ignored="false" />
     <file path="/menu.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375431815876" ignored="false" />
@@ -58,43 +49,16 @@
       <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="1" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0">
+            <state line="107" column="16" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colours.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="73" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="824" selection-end="824" vertical-scroll-proportion="0.64579254">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showArticle.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.5">
+            <state line="23" column="10" selection-start="782" selection-end="782" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -103,7 +67,34 @@
       <file leaf-file-name="_articleList.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="61" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-13.125">
+            <state line="2" column="41" selection-start="103" selection-end="103" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.layout.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="23" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.3192771">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colours.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="57" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="26" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,15 +125,15 @@
         <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/admin-blog.css" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/menu.html.twig" />
-        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" />
-        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" />
-        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig" />
-        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
+        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" />
+        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" />
+        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
+        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" />
       </list>
     </option>
   </component>
@@ -179,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,43 +403,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvBlogBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,11 +437,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27195686" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28582436" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -493,6 +449,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -561,9 +518,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/mv/mv-blog-bundle/Mv/BlogBundle/Resources/public/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
@@ -583,84 +538,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/admin-blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="46" selection-start="2560" selection-end="2560" vertical-scroll-proportion="0.67514676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="66" selection-end="66" vertical-scroll-proportion="0.060240965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="26" selection-start="777" selection-end="777" vertical-scroll-proportion="0.58878505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="61" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
+        <state line="2" column="36" selection-start="66" selection-end="66" vertical-scroll-proportion="0.060240965" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
+        <state line="5" column="24" selection-start="174" selection-end="174" vertical-scroll-proportion="0.028790787" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
+        <state line="4" column="30" selection-start="150" selection-end="150" vertical-scroll-proportion="0.11516315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css">
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="1" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="73" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+        <state line="32" column="57" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="824" selection-end="824" vertical-scroll-proportion="0.64579254">
+        <state line="23" column="10" selection-start="782" selection-end="782" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="103" selection-end="103" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="26" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="16" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="23" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.3192771">
           <folding />
         </state>
       </provider>

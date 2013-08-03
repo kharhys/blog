@@ -10,16 +10,14 @@
 
 {% block blog_body %}
     {% include "MvBlogBundle::flashes.html.twig" %}
-    <div class="contained">
-        <div id="mv_blog_page">
-            <div class="contained">
-                <div class="row-fluid">
-                    <div class="span9">
-                        {% block content_body %}{% endblock content_body %}
-                    </div>
-                    <div class="span3 side-box">
-                        {% render controller('MvBlogBundle:Default:menu') %}
-                    </div>
+    <div id="mv_blog_page">
+        <div class="contained">
+            <div class="row-fluid">
+                <div class="span9">
+                    {% block content_body %}{% endblock content_body %}
+                </div>
+                <div class="span3 side-box">
+                    {% render controller('MvBlogBundle:Default:menu') %}
                 </div>
             </div>
         </div>
