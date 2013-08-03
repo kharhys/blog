@@ -1,16 +1,18 @@
-<h1>{{ entity.title }}</h1>
+<div class="" id="comment-content">
+    <h1 class="naked">{{ entity.title }}</h1>
 
-{% include 'MvBlogBundle:Default:_articleCategories.html.twig' with {'entity': entity} %}
+    {% include 'MvBlogBundle:Default:_articleCategories.html.twig' with {'entity': entity} %}
 
-<div class="mv_blog_accroche">
-    {{ entity.accroche|raw }}
+    <div class="mv_blog_accroche">
+        {{ entity.accroche|raw }}
+    </div>
+
+    <div id="mv_blog_article">
+        {{ entity.article|raw }}
+    </div>
+
+    <p class="mv_blog_mention">
+        {#Article publié le {{ entity.publied|date('d/m/Y') }} à {{ entity.publied|date('H:i') }}#}
+        {{ 'admin.post.published_at'|trans({'%date%': entity.publied|date('d/m/Y'), '%time%': entity.publied|date('H:i')}, 'MvBlogBundle') }}
+    </p>
 </div>
-
-<div id="mv_blog_article">
-    {{ entity.article|raw }}
-</div>
-
-<p class="mv_blog_mention">
-    {#Article publié le {{ entity.publied|date('d/m/Y') }} à {{ entity.publied|date('H:i') }}#}
-    {{ 'admin.post.published_at'|trans({'%date%': entity.publied|date('d/m/Y'), '%time%': entity.publied|date('H:i')}, 'MvBlogBundle') }}
-</p>

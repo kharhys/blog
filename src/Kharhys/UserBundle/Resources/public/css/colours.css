@@ -1,9 +1,9 @@
-BODY {  background-color: #9473AB; }
+BODY {  background-color: #565680; }
 INPUT[type=text],
 INPUT[type=email],
 INPUT[type=url],
 TEXTAREA {  border: 1px solid #ccc; }
-A{ color: #1abc9c; }
+A{ color: #000000; }
 A:hover{ color: #222; }
 PRE { background-color: #fcfcfc; border: 1px solid #EEEEEE; }
 
@@ -22,8 +22,7 @@ TABLE.records_list > TBODY > TR.even { background-color: #ddd; }
 TABLE.records_list > TBODY > TR.mv_blog_sub_category.odd { background-color: #e5e5ff; }
 TABLE.records_list > TBODY > TR.mv_blog_sub_category.even { background-color: #eaeaff; }
 
-DIV#mv_blog_page { background: #ffffff;
-    opacity: 0.5; }
+DIV#mv_blog_page { background: #ffffff; }
 
 DIV#mv_blog_menu_left { background-color: inherit; color: #555; }
 DIV#mv_blog_menu_left > UL > LI { border-bottom: 1px solid #aaa; }
@@ -37,4 +36,4 @@ UL.article_categories { border-top: 1px solid #34495e; text-align: right }
 UL.article_categories LI { color: #ddd; }
 UL.article_categories LI A { color: #666; }
 
-.mv_blog_mention { color: #aaa; border-top: 1px solid #1abc9c; }
+.mv_blog_mention { color: #aaa; border-top: 1px solid #eeeeee; }

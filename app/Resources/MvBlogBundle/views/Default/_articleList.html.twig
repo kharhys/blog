@@ -2,13 +2,15 @@
     {% for entity in pagination %}
         <div class="mv_blog_article_list  {% if loop.index is odd %}odd{% else %}even{% endif %}">
             <h2 class="title"><a href="{{ path('blog_post_show', entity.routingParams ) }}">{{ entity.title }}</a></h2>
-            <div class="mv_blog_accroche">
-                {{ entity.accroche|raw }}
-                <p class="mv_blog_article_suite">
-                    <a href="{{ path('blog_post_show', entity.routingParams) }}">
-                        {{ 'default.readmore'|trans({}, 'MvBlogBundle') }}...
-                    </a>
-                </p>
+            <div class="contained">
+                <div class="mv_blog_accroche">
+                    {{ entity.accroche|raw }}
+                    <p class="mv_blog_article_suite">
+                        <a href="{{ path('blog_post_show', entity.routingParams) }}">
+                            {{ 'default.readmore'|trans({}, 'MvBlogBundle') }}...
+                        </a>
+                    </p>
+                </div>
             </div>
             {% if entity.commentsPublied|length == 0 %}
                 {% set link_comment = 'default.no_comments'|trans({}, 'MvBlogBundle') %}

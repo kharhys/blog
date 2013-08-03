@@ -86,12 +86,28 @@
     </div>
 {% endblock body_start %}
 
-{% block content_row %}
-    {% block blog_body %}{% endblock blog_body %}
-{% endblock content_row %}
+{% block container %}
+    <div class="container-fluid" id="page-content">
+        {% block blog_body %}{% endblock blog_body %}
+    </div>
+
+    <div id="footer">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12 text-center">
+                    <hr class="naked"/>
+                    &copy; Copyright InvestWorldDiary. All right reserved
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock container %}
 
 
-{% block footer %} {% endblock footer %}
+
+
+{% block footer %}
+{% endblock footer %}
 
 {% block javascripts %}
     {{ parent() }}
