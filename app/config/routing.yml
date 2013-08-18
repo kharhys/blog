@@ -3,6 +3,9 @@ kharhys_user:
     type:     annotation
     prefix:   /
 
+elfinder:
+     resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
 mv_blog:
     resource: "@MvBlogBundle/Resources/config/routing.yml"
     prefix: /

@@ -2,33 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/homepage.html.twig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" afterPath="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375559820503" ignored="false" />
+    <file path="/Dummy.txt" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376807679511" ignored="false" />
     <file path="/AppKernel.php" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375294178471" ignored="false" />
     <file path="/parameters.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375295267847" ignored="false" />
     <file path="/User.php" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375365607085" ignored="false" />
-    <file path="/security.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375365943196" ignored="false" />
+    <file path="/security.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376819337618" ignored="false" />
     <file path="/config.yml" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375378138865" ignored="false" />
     <file path="/base.admin-layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375369882783" ignored="false" />
-    <file path="/base.layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375566866162" ignored="false" />
+    <file path="/base.layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376816591659" ignored="false" />
     <file path="/blog.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375568805378" ignored="false" />
     <file path="/admin-blog.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375390399608" ignored="false" />
-    <file path="/default.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375568288450" ignored="false" />
-    <file path="/colours.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375568204708" ignored="false" />
-    <file path="/layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375434633318" ignored="false" />
+    <file path="/default.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376816557117" ignored="false" />
+    <file path="/colours.css" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376809897097" ignored="false" />
+    <file path="/layout.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376818859075" ignored="false" />
     <file path="/_articleList.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375560105740" ignored="false" />
     <file path="/menu.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375431815876" ignored="false" />
     <file path="/showArticle.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375568901468" ignored="false" />
     <file path="/article.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1375568849132" ignored="false" />
+    <file path="/base.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376808052310" ignored="false" />
+    <file path="/homepage.html.twig" changelist="a103b7ab-ab68-41cd-ad74-eae20d2ecf1a" time="1376819008976" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,64 +53,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css">
+      <file leaf-file-name="_articleList.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="21" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0">
+            <state line="12" column="22" selection-start="708" selection-end="708" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showArticle.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig">
+      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="55" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.6927711">
+            <state line="26" column="44" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/bundles/mvblog/images/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.625">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig">
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="10" selection-start="782" selection-end="782" vertical-scroll-proportion="-14.375">
+            <state line="4" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colours.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css">
+      <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="61" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0">
+            <state line="52" column="9" selection-start="1675" selection-end="1675" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css">
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.layout.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="39" selection-start="4807" selection-end="4807" vertical-scroll-proportion="-8.583333">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,31 +125,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/app_dev.php" />
-        <option value="$PROJECT_DIR$/web/config.php" />
         <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/admin-blog.css" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/menu.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
-        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
         <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig" />
+        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css" />
+        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css" />
+        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="28" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="y" value="2" />
+    <option name="width" value="1366" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,6 +176,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,15 +219,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Kharhys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,49 +237,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Kharhys" />
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
+              <option name="myItemId" value="mvblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kharhys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,27 +263,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Kharhys" />
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="mvblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,6 +304,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,33 +381,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvBlogBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Post" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../path" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
@@ -477,15 +415,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="28" width="1346" height="728" extended-state="0" />
+    <frame x="0" y="2" width="1366" height="766" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29044685" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057663" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -494,7 +433,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -561,102 +499,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/mv/mv-blog-bundle/Mv/BlogBundle/Resources/public/css/default.css">
+    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.27102804" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="200" column="8" selection-start="6209" selection-end="6209" vertical-scroll-proportion="-73.291664">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/admin-blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/homepage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="66" selection-end="66" vertical-scroll-proportion="0.060240965" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="708" selection-end="708" vertical-scroll-proportion="0.36144578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mopa/bootstrap-bundle/Mopa/Bundle/BootstrapBundle/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="18" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.32421052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="10" selection-start="782" selection-end="782" vertical-scroll-proportion="-14.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="39" selection-start="4807" selection-end="4807" vertical-scroll-proportion="-8.583333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="21" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="61" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/AdminBlog/Post/article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.625">
+        <state line="17" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.4450262">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/showArticle.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.6927711">
+        <state line="41" column="55" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.031716418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="2" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/colours.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="32" selection-start="1307" selection-end="1307" vertical-scroll-proportion="-18.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kharhys/UserBundle/Resources/public/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="17" selection-start="2135" selection-end="2135" vertical-scroll-proportion="0.8500914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/base.layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="148" selection-start="4372" selection-end="4372" vertical-scroll-proportion="0.70708954">
+          <folding>
+            <element signature="e#923#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="58" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-15.0">
+          <folding>
+            <element signature="e#533#567#0" expanded="true" />
+            <element signature="e#656#697#0" expanded="true" />
+            <element signature="e#794#835#0" expanded="true" />
+            <element signature="e#889#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/homepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="161" selection-end="161" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/MvBlogBundle/views/Default/_articleList.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="708" selection-end="708" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="9" selection-start="1675" selection-end="1675" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="44" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/mvblog/images/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

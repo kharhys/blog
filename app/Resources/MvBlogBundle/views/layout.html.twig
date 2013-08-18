@@ -10,15 +10,19 @@
 
 {% block blog_body %}
     {% include "MvBlogBundle::flashes.html.twig" %}
-    <div id="mv_blog_page">
-        <div class="contained">
-            <div class="row-fluid">
-                <div class="span9">
-                    {% block content_body %}{% endblock content_body %}
-                </div>
-                <div class="span3 side-box">
-                    {% render controller('MvBlogBundle:Default:menu') %}
-                </div>
+    <div class="row-fluid">
+        <div class="span9">
+            {% block content_body %}{% endblock content_body %}
+        </div>
+
+        <div class="span3" style="background-color: #465869;">
+            {# {% render controller('MvBlogBundle:Default:menu') %} #}
+            <h2 style="border-bottom: 1px solid #FFFEDF;" class="title">On Social Networks</h2>
+
+            <div class="well bgless">
+                <i style="display: inline-block; width: 30%" class="icon-twitter icon-2x"></i>
+                <i style="display: inline-block; width: 30%" class="icon-facebook icon-2x"></i>
+                <i style="display: inline-block; width: 30%" class="icon-google-plus icon-2x"></i>
             </div>
         </div>
     </div>

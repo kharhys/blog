@@ -1,10 +1,10 @@
-BODY {  background-color: #565680; }
+BODY {  background-color: #000000; color: #FFFEDF; }
 INPUT[type=text],
 INPUT[type=email],
 INPUT[type=url],
 TEXTAREA {  border: 1px solid #ccc; }
-A{ color: #000000; }
-A:hover{ color: #222; }
+A{ color: #ddca7e; }
+A:hover{ color: #ddca7e; }
 PRE { background-color: #fcfcfc; border: 1px solid #EEEEEE; }
 
 UL.record_actions { background-color: #ddd; }
@@ -22,15 +22,15 @@ TABLE.records_list > TBODY > TR.even { background-color: #ddd; }
 TABLE.records_list > TBODY > TR.mv_blog_sub_category.odd { background-color: #e5e5ff; }
 TABLE.records_list > TBODY > TR.mv_blog_sub_category.even { background-color: #eaeaff; }
 
-DIV#mv_blog_page { background: #ffffff; }
+DIV#mv_blog_page {  }
 
 DIV#mv_blog_menu_left { background-color: inherit; color: #555; }
 DIV#mv_blog_menu_left > UL > LI { border-bottom: 1px solid #aaa; }
 DIV#mv_blog_menu_left UL > LI A{ color: inherit; }
 DIV#mv_blog_menu_left UL > LI A:hover{ color: #aaa; }
 
-DIV.mv_blog_article_list.odd { background-color: #f4f2ee; }
-DIV.mv_blog_article_list.even { background-color: #fcfcfc; }
+DIV.mv_blog_article_list.odd {  }
+DIV.mv_blog_article_list.even {  }
 
 UL.article_categories { border-top: 1px solid #34495e; text-align: right }
 UL.article_categories LI { color: #ddd; }

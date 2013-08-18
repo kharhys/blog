@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="{{ asset('bundles/kharhysuser/css/default.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('bundles/kharhysuser/css/blog.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('bundles/kharhysuser/css/colours.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/bmatznerfontawesome/css/font-awesome.min.css') }}" />
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="{{ asset('bundles/bmatznerfontawesome/css/font-awesome-ie7.min.css') }}">
+    <![endif]-->
 {% endblock head_style %}
 
 {% block navbar %} {% endblock navbar %}
@@ -14,89 +18,79 @@
 
 {% block title %} Blog {% endblock %}
 
-{% block body_start %}
-    <div class="container-fluid menu">
-        <div class="row-fluid">
-            <div class="span6 text-left">
-                <ul>
-                    {% if app.user %}
-                        {% if is_granted('ROLE_ADMIN') %}
-                            {% set dashboard = 'admin_home' %}
-                        {% elseif is_granted('ROLE_USER') %}
-                            {% set dashboard = 'user_home' %}
-                        {% endif %}
-                        <li><a href="{{ path(dashboard) }}">Dashboard</a></li>
-                    {% else %}
-                        <li><a href="{{ path('blog_homepage') }}">Home</a></li>
-                    {% endif %}
-                    <li><a href="{{ path('fos_user_registration_register') }}">Recent Posts</a></li>
-                    <li><a href="{{ path('fos_user_registration_register') }}">Categories</a></li>
-                    <li><a href="{{ path('fos_user_security_login') }}">About Us</a></li>
-                    <li><a href="{{ path('fos_user_security_login') }}">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="span6 text-right">
-                <ul>
-                    <li><a href="{{ path('fos_user_security_login') }}">Sign Up</a></li>
-                    <li><a href="{{ path('fos_user_security_login') }}">Log In</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+{% block container %}
+    <div id="wrapper">
+        <div style="background-color: #DFBA69; ">&nbsp;</div>
 
-    <div id="header">
-        <div class="row-fluid">
-            <div class="span8 text-left">
-                <div id="logo-block">
-                    <div class="row-fluid">
-                        <div class="span12 page-header">
-                            <h1>Invest World Diary  <small>A Blog About Investment Opportunities</small></h1>
+        <div class="container-fluid">
+            <div class="container-fluid" id="container">
+
+                <div class="row-fluid" id="header">
+                    <div class="span6">
+                        <img src="http://fpoimg.com/450x80?text=LOGO&bg_color=3E4147&text_color=DFBA69">
+                    </div>
+                    <div class="span6 text-right">
+                        <img src="http://fpoimg.com/300x80?text=CONTACT&bg_color=3E4147&text_color=DFBA69">
+                    </div>
+                </div>
+
+                <div class="row-fluid" id="menu" >
+                    <div class="span12">
+                        <ul>
+                            {% if app.user %}
+                                {% if is_granted('ROLE_ADMIN') %}
+                                    {% set dashboard = 'admin_home' %}
+                                {% elseif is_granted('ROLE_USER') %}
+                                    {% set dashboard = 'user_home' %}
+                                {% endif %}
+                                <li><a href="{{ path(dashboard) }}">Dashboard</a></li>
+                            {% else %}
+                                <li><a href="{{ path('blog_homepage') }}">Home</a></li>
+                            {% endif %}
+                            <li><a href="{{ path('fos_user_registration_register') }}">Blog</a></li>
+                            <li><a href="{{ path('fos_user_registration_register') }}">Sign Up</a></li>
+                            <li><a href="{{ path('fos_user_security_login') }}">Log In</a></li>
+                            <li><a href="{{ path('fos_user_security_login') }}">Forum</a></li>
+                            <li><a href="{{ path('fos_user_security_login') }}">Contact Us</a></li>
+                            <li class="text-right">
+                                <form class="form-search">
+                                    <div class="input-append">
+                                        <input type="text" class="span12 search-query">
+                                        <button type="submit" class="btn">Search</button>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div id="carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner text-center">
+                                <div class="active item"><img src="http://fpoimg.com/950x320?text=Carousel Image&bg_color=465869&text_color=DFBA69" width="950" height="320"/></div>
+                                <div class="item"><img src="http://fpoimg.com/950x320?text=Carousel Image&bg_color=465869&text_color=DFBA69" width="950" height="320"/></div>
+                                <div class="item"><img src="http://fpoimg.com/950x320?text=Carousel Image&bg_color=465869&text_color=DFBA69" width="950" height="320"/></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div id="carousel" class="carousel slide">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner text-center">
-                        <div class="active item"><img src="http://fpoimg.com/870x200?text=Carousel Image&bg_color=584566&text_color=FFFFFF" width="870" height="150"/></div>
-                        <div class="item"><img src="http://fpoimg.com/870x200?text=Carousel Image&bg_color=584566&text_color=FFFFFF" width="870" height="150"/></div>
-                        <div class="item"><img src="http://fpoimg.com/870x200?text=Carousel Image&bg_color=584566&text_color=FFFFFF" width="870" height="150"/></div>
-                    </div>
-                    <!--
-                    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-                    -->
-                </div>
-            </div>
-            <div class="span4">
-                <div class="page-header">
-                    <h1><small>About The Author</small> </h1>
-                </div>
-                <div class="text-left" id="about">
-                    This is the area where you will put in information about who you are, your experience blogging, and what your blog is about. You aren't limited, however, to just putting a biography. You can put whatever you please.
-                </div>
-                <div class="text-center" id="ad-spot">
-                    <img src="http://fpoimg.com/400x100?text=Sample Ad Banner&bg_color=584586&text_color=FFFFFF" width="400" height="100"/>
-                </div>
+
+                {% block blog_body %}{% endblock blog_body %}
             </div>
         </div>
-    </div>
-{% endblock body_start %}
 
-{% block container %}
-    <div class="container-fluid" id="page-content">
-        {% block blog_body %}{% endblock blog_body %}
-    </div>
-
-    <div id="footer">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12 text-center">
-                    <hr class="naked"/>
-                    &copy; Copyright InvestWorldDiary. All right reserved
+        <div id="footer">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12 text-center">
+                        &copy; Copyright InvestWorldDiary. All right reserved
+                    </div>
                 </div>
             </div>
         </div>

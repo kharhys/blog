@@ -35,10 +35,7 @@ DIV.mv_blog_accroche A:hover, DIV#mv_blog_article A:hover { text-decoration: non
   clear: both;
 }
 
-DIV#top-block {
-    border-top: 2px solid #000001;
-    color: #DDACFF;
-}
+
 DIV#logo-block {
     text-transform: uppercase;
 }
@@ -59,35 +56,24 @@ DIV#logo-block {
 ul {
     list-style-type: none;
 }
-.menu {
-    border-bottom: 1px solid #000001;
-    padding: 0 10px;
-    background: #584566;
+#menu {
+    margin: 1% 0;
 }
-.menu li {
-    display: inline-block;
-    margin: 0.5% 1%;
-}
-.menu ul {
-    padding: 0;
+#menu ul {
     margin: 0;
 }
-.menu ul:first-child li {
-    padding-left: 2px;
-}
-.menu a {
-    color: #FFFFFF;
+#menu li {
+    display: inline-block;
+    margin: 1.5% 6% 0 0;
+    font-family: Arial,sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    font-style: normal;
     text-transform: uppercase;
     font-size: 80%;
-    padding: 0 5px;
 }
-.menu a:hover {
-    color: #DDACFF;
-    text-decoration: none;
-}
-.menu a:active {
-    color: #1abc9c;
-    text-decoration: none;
+#menu ul:last-child li:last-child {
+    margin: 0;
 }
 
 .title {
@@ -115,9 +101,9 @@ ul {
 }
 
 DIV#header {
-    margin: 1% 0 0;
-    padding: 1% 1% 0;
-    background: #FFFFFF;
+    margin: 5px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #3E4147;
 }
 DIV#img-caption {
     margin-top: 10px;
@@ -130,12 +116,15 @@ DIV#img-caption {
 #about {
     padding: 0 7px 5px;
 }
-#page-content {
-    border-top: 1px solid #000001;
+#wrapper {
+    border-top: 2px solid #3E4147;
+}
+#container {
+    max-width: 950px;
+    margin: 0 auto;
 }
 #footer {
-    background: #FFFFFF;
-    border-top: 1px solid #000001;
+    border-top: 1px solid #3E4147;
     padding: 2% 2% 0;
     text-transform: uppercase;
     font-size: 80%;
